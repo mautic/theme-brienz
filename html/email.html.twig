@@ -3,11 +3,14 @@
   <mj-head>
 	<mj-title>{subject}
 	</mj-title>
-	<mj-preview>Preview Text goes here
-	</mj-preview>
 	<mj-attributes>
-	  <mj-all margin="0">
-	  </mj-all>
+	  <mj-all font-family="Ubuntu, Helvetica, Arial, sans-serif" margin="0" />
+	  <mj-button font-weight="600" border-radius="4px" padding="0" />
+
+	  <!-- Button tokens -->
+	  <mj-class name="t-btn" inner-padding="12px 24px" />
+	  <mj-class name="t-btn-primary" background-color="#486AE2" color="#FFFFFF" />
+	  <mj-class name="t-btn-secondary" background-color="#9E094E" color="#FFFFFF" />
 	</mj-attributes>
 	<!-- CSS-STYLE -->
 	<mj-style inline="inline"> p, li {margin:0; padding:0;}
@@ -50,7 +53,7 @@
 		<p>See our progress!
 		</p>
 	  </mj-text>
-	  <mj-button background-color="#9E094E" color="#FFFFFF" font-size="15px" href="#" font-family="Ubuntu, Helvetica, Arial, sans-serif" padding-top="80px" padding-bottom="0px">MORE UPDATES
+	  <mj-button mj-class="t-btn t-btn-secondary" href="#" padding-top="80px" padding-bottom="0px">MORE UPDATES
 	  </mj-button>
 	</mj-hero>
 	<!-- SECTION TEXT + BUTTON -->
@@ -70,7 +73,7 @@
 			<a title="mail" href="mailto:info@company.com">info@company.com</a>
 		  </p>
 		</mj-text>
-		<mj-button background-color="#486AE2" color="#FFFFFF" href="#" font-family="Ubuntu, Helvetica, Arial, sans-serif" padding-top="20px" padding-bottom="40px">READ MORE
+		<mj-button mj-class="t-btn t-btn-primary" href="#" padding-top="20px" padding-bottom="40px">READ MORE
 		</mj-button>
 	  </mj-column>
 	</mj-section>
@@ -92,7 +95,7 @@
 		  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin rutrum enim eget magna efficitur, eu semper augue semper. Aliquam erat volutpat. Cras id dui lectus. Vestibulum sed finibus lectus, sit amet suscipit nibh. Proin nec commodo purus. Sed eget nulla elit. Nulla aliquet mollis faucibus.
 		  </p>
 		</mj-text>
-		<mj-button background-color="#486AE2" color="#FFFFFF" href="#" font-family="Ubuntu, Helvetica, Arial, sans-serif" padding-top="20px" padding-bottom="40px">READ MORE
+		<mj-button mj-class="t-btn t-btn-primary" href="#" padding-top="20px" padding-bottom="40px">READ MORE
 		</mj-button>
 	  </mj-column>
 	</mj-section>
@@ -110,7 +113,7 @@
 		  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin rutrum enim eget magna efficitur, eu semper augue semper. Aliquam erat volutpat. Cras id dui lectus. Vestibulum sed finibus lectus, sit amet suscipit nibh. Proin nec commodo purus. Sed eget nulla elit. Nulla aliquet mollis faucibus.
 		  </p>
 		</mj-text>
-		<mj-button background-color="#486AE2" color="#FFFFFF" href="#" font-family="Ubuntu, Helvetica, Arial, sans-serif" padding-top="20px" padding-bottom="40px">READ MORE
+		<mj-button mj-class="t-btn t-btn-primary" href="#" padding-top="20px" padding-bottom="40px">READ MORE
 		</mj-button>
 	  </mj-column>
 	  <mj-column width="50%">
@@ -119,7 +122,7 @@
 		  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin rutrum enim eget magna efficitur, eu semper augue semper. Aliquam erat volutpat. Cras id dui lectus. Vestibulum sed finibus lectus, sit amet suscipit nibh. Proin nec commodo purus. Sed eget nulla elit. Nulla aliquet mollis faucibus.
 		  </p>
 		</mj-text>
-		<mj-button background-color="#486AE2" color="#FFFFFF" href="#" font-family="Ubuntu, Helvetica, Arial, sans-serif" padding-top="20px" padding-bottom="40px">READ MORE
+		<mj-button mj-class="t-btn t-btn-primary" href="#" padding-top="20px" padding-bottom="40px">READ MORE
 		</mj-button>
 	  </mj-column>
 	</mj-section>
@@ -147,7 +150,7 @@
 			<a title="mail" href="mailto:info@company.com">info@company.com</a>
 		  </p>
 		</mj-text>
-		<mj-button background-color="#486AE2" color="#FFFFFF" href="#" font-family="Ubuntu, Helvetica, Arial, sans-serif" padding-top="20px" padding-bottom="40px">READ MORE
+		<mj-button mj-class="t-btn t-btn-primary" href="#" padding-top="20px" padding-bottom="40px">READ MORE
 		</mj-button>
 	  </mj-column>
 	</mj-section>
