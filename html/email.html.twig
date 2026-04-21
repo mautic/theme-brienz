@@ -7,6 +7,11 @@
 	  <mj-all font-family="Ubuntu, Helvetica, Arial, sans-serif" margin="0" />
 	  <mj-button font-weight="600" border-radius="4px" padding="0" />
 
+	  <!-- Section / surface tokens -->
+	  <mj-class name="t-section" padding-top="25px" padding-bottom="0" />
+	  <mj-class name="t-surface-1" background-color="#ffffff" />
+	  <mj-class name="t-surface-2" background-color="#d6dde5" />
+
 	  <!-- Button tokens -->
 	  <mj-class name="t-btn" inner-padding="12px 24px" />
 	  <mj-class name="t-btn-primary" background-color="#486AE2" color="#FFFFFF" />
@@ -57,7 +62,7 @@
 	  </mj-button>
 	</mj-hero>
 	<!-- SECTION TEXT + BUTTON -->
-	<mj-section background-color="#ffffff" padding-top="25px" padding-bottom="0">
+	<mj-section mj-class="t-section t-surface-1">
 	  <mj-column>
 		<mj-text color="#000000" font-family="Ubuntu, Helvetica, Arial, sans-serif" font-size="20px" line-height="1.5" font-weight="500" padding-bottom="0px">
 		  <p>This is an eyecatching headline
@@ -84,7 +89,7 @@
 	  </mj-column>
 	</mj-section>
 	<!-- SECTION IMAGE + TEXT + BUTTON -->
-	<mj-section background-color="#ffffff" padding-top="25px" padding-bottom="0">
+	<mj-section mj-class="t-section t-surface-1">
 	  <mj-column width="100%">
 		<mj-image src="{{ getAssetUrl('themes/'~template~'/assets/brienz.jpeg', null, null, true) }}" alt="Lake of Brienz - Switzerland" padding-top="0" padding-bottom="20px"/>
 		<mj-text color="#000000" font-family="Ubuntu, Helvetica, Arial, sans-serif" font-size="20px" line-height="1.5" font-weight="500" padding-bottom="0px">
@@ -106,7 +111,7 @@
 	  </mj-column>
 	</mj-section>
 	<!-- SECTION 2-COLUMNS IMAGE + TEXT + BUTTON -->
-	<mj-section background-color="#ffffff" padding-top="25px" padding-bottom="0px">
+	<mj-section mj-class="t-section t-surface-1">
 	  <mj-column width="50%">
 		<mj-image src="{{ getAssetUrl('themes/'~template~'/assets/sign.jpeg', null, null, true) }}" alt="At the Top Of The Rothorn" padding-top="0" padding-bottom="0px"/>
 		<mj-text color="#000000" font-family="Ubuntu, Helvetica, Arial, sans-serif" font-size="16px" line-height="1.5" font-weight="300" align="justify" padding-top="20px">
@@ -133,7 +138,7 @@
 	  </mj-column>
 	</mj-section>
 	<!-- SECTION FOOTER -->
-	<mj-section background-color="#ffffff" padding-top="25px" padding-bottom="0">
+	<mj-section mj-class="t-section t-surface-1">
 	  <mj-column>
 		<mj-text color="#000000" font-family="Ubuntu, Helvetica, Arial, sans-serif" font-size="20px" line-height="1.5" font-weight="500" padding-bottom="0px">
 		  <p>This is an eyecatching headline
